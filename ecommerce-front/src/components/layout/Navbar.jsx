@@ -160,8 +160,8 @@ const NavigationBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <Nav.Link as={Link} to="/" className="mx-3">Accueil</Nav.Link>
               <Nav.Link as={Link} to="/products" className="mx-3">Boutique</Nav.Link>
+              <Nav.Link as={Link} to="/" className="mx-3">Notre Marque</Nav.Link>
               <Nav.Link as={Link} to="/about" className="mx-3">Notre histoire</Nav.Link>
               <Nav.Link as={Link} to="/contact" className="mx-3">Contact</Nav.Link>
             </Nav>
